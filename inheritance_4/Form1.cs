@@ -8,15 +8,15 @@ namespace inheritance_4
         {
             InitializeComponent();
             ShowInfo();
+            ShowQueue();
         }
 
         private void btnRefill_Click(object sender, EventArgs e)
         {
             this.moviesList.Clear();
-            var rnd = new Random();
             for (var i = 0; i < 10; ++i)
             {
-                switch (rnd.Next() % 3)
+                switch (Movie.rnd.Next() % 3)
                 {
                     case 0:
                         this.moviesList.Add(Film.Generate());
@@ -30,6 +30,7 @@ namespace inheritance_4
                 }
             }
             ShowInfo();
+            ShowQueue();
         }
 
         private void ShowInfo()
@@ -73,6 +74,31 @@ namespace inheritance_4
             txtOut.Text = movie.GetInfo();
 
             ShowInfo();
+            ShowQueue();
+        }
+
+        private void ShowQueue()
+        {
+            txtQueue.Text = "";
+
+            if (moviesList.Count == 0)
+            {
+                txtQueue.Text = "Очередь пуста";
+                return;
+            }
+
+            for (int i = 0; i < moviesList.Count; i++)
+            {
+                string type;
+                if (moviesList[i] is Film)
+                    type = "Фильм";
+                else if (moviesList[i] is Serial)
+                    type = "Сериал";
+                else
+                    type = "Телепередача";
+
+                txtQueue.Text += (i + 1) + ") " + type + "\n";
+            }
         }
     }
 }
