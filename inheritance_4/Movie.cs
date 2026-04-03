@@ -2,6 +2,7 @@
 {
     public class Movie
     {
+        public static Random rnd = new Random();
         public int Rating;
 
         public virtual String GetInfo()
@@ -32,6 +33,16 @@
             str += String.Format("\nЖанр: {0}", this.Genre);
             return str;
         }
+
+        public static Film Generate()
+        {
+            return new Film
+            {
+                Rating = rnd.Next(1, 11),
+                Timekeeping = rnd.Next(10, 201),
+                Genre = (FilmGenre)rnd.Next(12)
+            };
+        }
     }
 
     public class Serial : Movie
@@ -47,6 +58,18 @@
             str += String.Format("\nОбщее количество серий: {0}", this.TotalNumberOfEpisodes);
             str += String.Format("\nКоличество сезонов: {0}", this.NumberOfSeasons);
             return str;
+        }
+
+        public static Serial Generate()
+        {
+            int seasons = rnd.Next(1, 51);
+
+            return new Serial
+            {
+                Rating = rnd.Next(1, 11),
+                NumberOfSeasons = seasons,
+                TotalNumberOfEpisodes = rnd.Next(seasons * 2, 501)
+            };
         }
     }
 
@@ -64,5 +87,18 @@
             str += String.Format("\nЭфирное время (в минутах): {0}", this.Airtime);
             return str;
         }
+
+        public static Television Generate()
+        {
+            int duration = rnd.Next(1, 5001);
+
+            return new Television
+            {
+                Rating = rnd.Next(1, 11),
+                Duration = duration,
+                Airtime = rnd.Next(duration * 5, 100001),
+            };
+        }
     }
 }
+
