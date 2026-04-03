@@ -1,0 +1,17 @@
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\bin\Debug\net8.0-windows\inheritance_4.exe
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\bin\Debug\net8.0-windows\inheritance_4.deps.json
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\bin\Debug\net8.0-windows\inheritance_4.runtimeconfig.json
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\bin\Debug\net8.0-windows\inheritance_4.dll
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\bin\Debug\net8.0-windows\inheritance_4.pdb
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.Form1.resources
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.csproj.GenerateResource.cache
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.AssemblyInfoInputs.cache
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.AssemblyInfo.cs
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.csproj.CoreCompileInputs.cache
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.sourcelink.json
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.dll
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\refint\inheritance_4.dll
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.pdb
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\inheritance_4.genruntimeconfig.cache
+C:\Users\verki\OneDrive\Рабочий стол\proj\inheritance_4\inheritance_4\obj\Debug\net8.0-windows\ref\inheritance_4.dll
